@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>test</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="game">
+            <img src="./assets/Images/bg.png" alt="" id="Bg">
+            <div class="start">
+                <button type="button" class="btn btn-outline-success" id="Start">
+                    Start Game
+                </button>
+            </div>
+            <div class="all_el d-none">
+                <div class="restart d-none">
+                    <button type="button" class="btn btn-outline-success" id="Restart">
+                        Restart
+                    </button>
+                </div>
+                <div class="result">
+                    <span>Computer</span>
+                    <span id="comp_result">0</span>
+                    <span>-</span>
+                    <span id="player_result">0</span>
+                    <span>Player</span>
+                </div>
+                <div class="op" id="comp_op">
+                    <img class="rotate_img" src="./assets/Images/select.png" alt="">
+                </div>
+                <div class="now">
+                    <span id="now">???</span>
+                </div>
+                <div class="op" id="player_op">
+                    <img class="rotate_img" src="./assets/Images/select.png" alt="" id="p_choice">
+                </div>
+                <div class="all_p">
+                    <div class="" id="player_ops">
+                        <img src="./assets/Images/rock.png" alt="" class="rock" id="Rock">
+                    </div>
+                    <div class="" id="player_ops">
+                        <img src="./assets/Images/paper.png" alt="" class="paper" id="Paper">
+                    </div>
+                    <div class="" id="player_ops">
+                        <img src="./assets/Images/scissors.png" alt="" class="scissors" id="Scissors">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
